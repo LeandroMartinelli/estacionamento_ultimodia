@@ -1,0 +1,24 @@
+{
+  "name": "ultimo-dia",
+  "version": "1.0.0",
+  "description": "Estacionamento do Ultimo dia",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeandroMartinelli/estacionamento_ultimodia.git"
+  },
+  "author": "Leandro Martinelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeandroMartinelli/estacionamento_ultimodia/issues"
+  },
+  "homepage": "https://github.com/LeandroMartinelli/estacionamento_ultimodia#readme",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "ejs": "^2.5.9",
+    "express": "^4.16.3"
+  }
+}
