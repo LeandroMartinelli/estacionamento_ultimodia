@@ -1,7 +1,7 @@
 module.exports = function(app){
 
-    app.get('/', function (req, res) {
-        res.render('index');
-    });
+    controller = app.controller.index;
+    app.get('/', controller.index);
+    app.get('/teste', controller.teste);
 
 }
